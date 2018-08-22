@@ -64,7 +64,7 @@ public class SimpleViewpagerIndicator extends AbsViewPagerIndicator {
         }
 
         mover = new ImageView(getContext());
-        mover.setBackgroundResource(R.drawable.dot);
+        mover.setBackgroundResource(R.drawable.dott);
         RelativeLayout.LayoutParams moverLayoutParams = new RelativeLayout.LayoutParams(dotSpan + dotRadius, dotRadius);
         moverLayoutParams.addRule(CENTER_VERTICAL);
         mover.setLayoutParams(moverLayoutParams);
